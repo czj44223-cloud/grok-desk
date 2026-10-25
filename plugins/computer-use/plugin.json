@@ -1,0 +1,8 @@
+{
+  "name": "computer-use",
+  "version": "0.1.0",
+  "description": "截屏、点击和打字，操作这台电脑。每次操作仍由命令行询问。",
+  "author": {
+    "name": "Grok 桌面"
+  }
+}

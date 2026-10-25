@@ -1,0 +1,32 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "主窗口可以检查命令行，并和一个会话对话",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "allow-check-cli",
+    "allow-desk-info",
+    "allow-agent-send",
+    "allow-agent-cancel",
+    "allow-agent-reply-permission",
+    "allow-agent-set-project",
+    "allow-agent-new-session",
+    "allow-agent-load-session",
+    "allow-project-catalog",
+    "allow-set-session-archived",
+    "allow-session-outputs",
+    "allow-preview-file",
+    "allow-open-url",
+    "allow-open-path",
+    "allow-delete-session",
+    "allow-create-worktree",
+    "allow-remove-worktree",
+    "allow-auth-status",
+    "allow-auth-login",
+    "allow-auth-logout",
+    "allow-plugin-catalog",
+    "allow-set-plugin-enabled",
+    "dialog:default"
+  ]
+}
